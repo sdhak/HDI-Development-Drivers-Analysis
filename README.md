@@ -37,8 +37,8 @@ By identifying indicators that are strongly associated with HDI outcomes, this p
 ## Data Sources
 
 The analysis uses publicly available global development datasets:
-	- World Bank World Development Indicators
-	- United Nations Development Programme Human Development Index dataset
+	* World Bank World Development Indicators
+	* United Nations Development Programme Human Development Index dataset
 
 The dataset includes 26 development indicators that are not directly used in the HDI formula but may influence human development outcomes.
 
@@ -102,7 +102,7 @@ Possible applications include:
 Organizations involved in global development—such as the World Bank and the United Nations Development Programme—frequently rely on large datasets to guide development strategies, making analytical approaches like this increasingly valuable.
 
 ## Repository Structure
-
+```
 hdi-development-drivers/
 │
 ├── data/
@@ -130,6 +130,7 @@ hdi-development-drivers/
 │
 └── reports/
     └── project_summary.md
+```
 
 ## Tools and Technologies
 
