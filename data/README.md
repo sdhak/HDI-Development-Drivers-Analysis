@@ -19,14 +19,14 @@ processed/  → Cleaned datasets used for modeling
 * Export as CSV
 
 Save as:
-data/external/wdi_selected_indicators.csv
+	•	data/external/wdi_selected_indicators.csv
 
 ### 2. Human Development Index (HDI)
-	•	Download HDI dataset from UNDP website
-	•	Export as Excel (available formats include Excel or JSON)
+* Download HDI dataset from UNDP website
+* Export as Excel (available formats include Excel or JSON)
 
 Save as:
-data/external/hdi_undp.xlsx
+	•	data/external/hdi_undp.xlsx
 
 ## Data Processing Workflow
 1. Raw datasets are stored in external/
