@@ -3,8 +3,8 @@
 This project uses publicly available global development datasets to analyze factors associated with the Human Development Index (HDI).
 
 Primary data sources:
-* World Bank – World Development Indicators (WDI)
-* United Nations Development Programme – Human Development Index dataset
+* World Bank – World Development Indicators (WDI) dataset
+* United Nations Development Programme – Human Development Index (HDI) dataset
 
 ## Folder Structure
 ````
@@ -16,7 +16,6 @@ processed/  → Cleaned datasets used for modeling
 ## How to Download the Data
 
 ### 1. World Development Indicators (WDI)
-Source: World Bank
 * Access the World Development Indicators database:
 https://databank.worldbank.org/source/world-development-indicators
 * Select relevant indicators (or download bulk dataset)
@@ -26,7 +25,6 @@ Save as:
 ```` data/external/wdi_selected_indicators.csv ````
 
 ### 2. Human Development Index (HDI)
-Source: United Nations Development Programme
 * Access the HDI dataset:
 https://hdr.undp.org/data-center/human-development-index
 * Download the dataset (available in Excel or JSON format)
