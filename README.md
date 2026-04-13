@@ -9,6 +9,38 @@ Although HDI provides a useful snapshot of development, it captures only a limit
 This project explores how data science and machine learning techniques can be used to analyze global development indicators and identify additional variables that are strongly associated with HDI outcomes. By examining relationships between HDI and a broader set of development indicators, this analysis aims to generate insights that may help inform development policy discussions and resource allocation decisions.
 
 The project uses data from the World Bank World Development Indicators dataset and applies a combination of statistical and machine learning methods to identify key patterns in global development data.
+⸻
+
+## Key Findings
+
+**1. Infrastructure and connectivity are the strongest predictors of human development**
+
+Countries with higher access to electricity, internet usage, and clean fuel access consistently show higher HDI levels.
+	•	Internet usage and life expectancy both show strong positive correlation with HDI (≈ 0.62)
+	•	Access to electricity emerges as the most important feature in tree-based models (importance ≈ 0.42)
+
+**2. Demographic structure strongly constrains development outcomes**
+
+Higher dependency ratios and mortality rates are strongly associated with lower HDI.
+	•	Young dependency ratio shows a strong negative correlation (-0.61)
+	•	Under-five mortality and infant deaths are significant negative predictors
+
+**3. Development relationships are non-linear**
+
+Tree-based models outperform linear regression (MSE: 0.633 vs 0.664), suggesting:
+	•	Effects of income and infrastructure are not purely linear
+	•	Interactions between variables matter in explaining HDI variation
+
+**4. Countries cluster into distinct development stages**
+
+KMeans clustering reveals three broad development profiles:
+	•	Low HDI: high dependency, low infrastructure access
+	•	Medium HDI: transitional infrastructure and health outcomes
+	•	High HDI: strong connectivity, life expectancy, and economic stability
+
+**5. Policy-relevant takeaway**
+ 
+The results indicate that infrastructure access—including electricity, internet, and clean energy—is a central driver of human development outcomes.
 
 ⸻
 
