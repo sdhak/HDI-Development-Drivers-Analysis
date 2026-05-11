@@ -178,3 +178,8 @@ Shristi Dhakal
 
 MS in Data Science | Data Scientist
 Interested in AI for social impact, development economics, and data-driven policy analysis.
+
+## Related Projects
+- 🤖 [World Bank Outcomes RAG Pipeline](link: https://github.com/sdhak/wb-outcomes-rag/tree/main ) — 
+RAG application querying WB project documents 
+using LangChain and LLMs *(in development)*
